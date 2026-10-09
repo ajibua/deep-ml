@@ -13,7 +13,6 @@ def cholesky_decomposition(A):
     """
     try:
         chol = np.linalg.cholesky(A)
-        A_trans = np.transpose(A)
     except:
         np.linalg.eigvals(A) > 0
         return -1
