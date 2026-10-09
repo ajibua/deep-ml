@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T21:13:24.295Z",
+  "generated_at": "2026-10-09T21:13:51.065Z",
   "items": {
     "problem:2": {
       "kind": "problem",
@@ -283,7 +283,7 @@
       "url": "https://www.deep-ml.com/problems/332",
       "path": "problems/0332-check-if-matrix-is-positive-definite",
       "first_solved_at": "2026-10-09T21:13:21.833Z",
-      "last_pushed_at": "2026-10-09T21:13:21.833Z",
+      "last_pushed_at": "2026-10-09T21:13:48.488Z",
       "language": "python",
       "lines": 15
     }
