@@ -1,0 +1,20 @@
+import numpy as np
+
+def cholesky_decomposition(A):
+    """
+    Perform Cholesky decomposition on a symmetric positive-definite matrix.
+    
+    Args:
+        A: A symmetric positive-definite matrix (2D list or numpy array)
+    
+    Returns:
+        L: Lower triangular matrix such that A = L @ L.T as a 2D list,
+           or -1 if decomposition is not possible
+    """
+    try:
+        chol = np.linalg.cholesky(A)
+        A_trans = np.transpose(A)
+    except:
+        np.linalg.eigvals(A) > 0
+        return -1
+    return chol.tolist()
