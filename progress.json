@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T19:54:34.249Z",
+  "generated_at": "2026-10-11T19:56:25.049Z",
   "items": {
     "problem:2": {
       "kind": "problem",
@@ -348,9 +348,9 @@
       "url": "https://www.deep-ml.com/problems/1127",
       "path": "problems/1127-filter-group-and-aggregate-a-dataframe-top-10-by-metric",
       "first_solved_at": "2026-10-11T19:54:32.388Z",
-      "last_pushed_at": "2026-10-11T19:54:32.388Z",
+      "last_pushed_at": "2026-10-11T19:56:23.389Z",
       "language": "python",
-      "lines": 8
+      "lines": 7
     }
   }
 }
