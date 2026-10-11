@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T19:56:25.049Z",
+  "generated_at": "2026-10-11T20:09:37.318Z",
   "items": {
     "problem:2": {
       "kind": "problem",
@@ -349,6 +349,19 @@
       "path": "problems/1127-filter-group-and-aggregate-a-dataframe-top-10-by-metric",
       "first_solved_at": "2026-10-11T19:54:32.388Z",
       "last_pushed_at": "2026-10-11T19:56:23.389Z",
+      "language": "python",
+      "lines": 7
+    },
+    "problem:1132": {
+      "kind": "problem",
+      "id": "1132",
+      "title": "Reshape Data with pivot_table and melt",
+      "difficulty": "medium",
+      "category": "Pandas",
+      "url": "https://www.deep-ml.com/problems/1132",
+      "path": "problems/1132-reshape-data-with-pivot-table-and-melt",
+      "first_solved_at": "2026-10-11T20:09:35.392Z",
+      "last_pushed_at": "2026-10-11T20:09:35.392Z",
       "language": "python",
       "lines": 7
     }
