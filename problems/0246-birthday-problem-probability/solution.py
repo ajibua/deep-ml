@@ -12,7 +12,5 @@ def birthday_problem(n: int, days: int = 365) -> float:
     """
     if n > days:
         return 1.0
-    P_no_match = 1.0
-    for i in range(n):
-        P_no_match *= (days - i)/days
+    P_no_match =  np.prod((days - np.arange(n))/days)
     return np.round(1 - P_no_match,4)
