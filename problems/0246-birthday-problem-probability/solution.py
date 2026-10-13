@@ -10,8 +10,6 @@ def birthday_problem(n: int, days: int = 365) -> float:
     Returns:
         float: Probability of at least one shared birthday, rounded to 4 decimal places
     """
-    if n <= 1:
-        return 0.0
     if n > days:
         return 1.0
     P_no_match = 1.0

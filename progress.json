@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T11:46:13.060Z",
+  "generated_at": "2026-10-13T11:46:33.946Z",
   "items": {
     "problem:2": {
       "kind": "problem",
@@ -439,9 +439,9 @@
       "url": "https://www.deep-ml.com/problems/246",
       "path": "problems/0246-birthday-problem-probability",
       "first_solved_at": "2026-10-13T11:46:11.406Z",
-      "last_pushed_at": "2026-10-13T11:46:11.406Z",
+      "last_pushed_at": "2026-10-13T11:46:32.640Z",
       "language": "python",
-      "lines": 20
+      "lines": 18
     }
   }
 }
