@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T10:21:29.386Z",
+  "generated_at": "2026-10-13T11:31:40.687Z",
   "items": {
     "problem:2": {
       "kind": "problem",
@@ -416,6 +416,19 @@
       "last_pushed_at": "2026-10-13T10:21:25.834Z",
       "language": "python",
       "lines": 14
+    },
+    "problem:168": {
+      "kind": "problem",
+      "id": "168",
+      "title": "Calculate Conditional Probability from Data",
+      "difficulty": "easy",
+      "category": "Probability",
+      "url": "https://www.deep-ml.com/problems/168",
+      "path": "problems/0168-calculate-conditional-probability-from-data",
+      "first_solved_at": "2026-10-13T11:31:38.664Z",
+      "last_pushed_at": "2026-10-13T11:31:38.664Z",
+      "language": "python",
+      "lines": 24
     }
   }
 }
