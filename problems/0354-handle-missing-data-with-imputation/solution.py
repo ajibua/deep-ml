@@ -13,9 +13,9 @@ def impute_missing_data(data: np.ndarray, strategy: str = 'mean') -> np.ndarray:
     """
     result = data.copy()
     for j in range(len(data[1])):   # we loop through the columns.
-        col = data[:,j]
-        mask = np.isnan(col)
-        valid = col[~mask]
+        col = data[:,j] # take a whole column at a time
+        mask = np.isnan(col) #checks where Nans are.
+        valid = col[~mask]  #flips it to the index
 
         if valid.size == 0:  #skip columns with nothing.
             continue
@@ -27,7 +27,7 @@ def impute_missing_data(data: np.ndarray, strategy: str = 'mean') -> np.ndarray:
             fill = np.median(valid)
         else:
             values,count = np.unique(valid, return_counts=True)
-            fill = values[np.argmax(count)]
+            fill = values[np.argmax(count)] #position of the biggest count.
         result[mask, j] = fill
 
     return result

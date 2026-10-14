@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T09:56:46.624Z",
+  "generated_at": "2026-10-14T09:59:46.216Z",
   "items": {
     "problem:2": {
       "kind": "problem",
@@ -465,7 +465,7 @@
       "url": "https://www.deep-ml.com/problems/354",
       "path": "problems/0354-handle-missing-data-with-imputation",
       "first_solved_at": "2026-10-14T09:56:44.406Z",
-      "last_pushed_at": "2026-10-14T09:56:44.406Z",
+      "last_pushed_at": "2026-10-14T09:59:44.232Z",
       "language": "python",
       "lines": 36
     }
